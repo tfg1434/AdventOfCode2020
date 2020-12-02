@@ -206,9 +206,14 @@ expenses = [
 //for (var _i = 0; _i < array_length(expenses) - 1; _i++){
 //	var _current_first_expense = expenses[_i]
 	
-//	for (var _j = 0; _j < array_length(expenses) - _i - 1; _j++){
-//		if (_current_first_expense + expenses[_j] == 2020){
-//			show_message("First expense: " + string(_current_first_expense) + "\n" + "Second expense: " + string(expenses[_j]))
+//	for (var _j = 0; _j < array_length(expenses) - 1; _j++){
+//		var _current_second_expense = expenses[_j]
+		
+//		for (var _k = 0; _k < array_length(expenses) - 1; _k++){
+//			if (_current_first_expense + _current_second_expense + expenses[_k] == 2020){
+//				show_message(string(_current_first_expense * _current_second_expense * expenses[_k]))
+//				exit
+//			}
 //		}
 //	}
 //}

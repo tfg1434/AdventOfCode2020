@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "day_1",
-    "path": "folders/day_1.yy",
+    "name": "day_2",
+    "path": "folders/day_2.yy",
   },
   "resourceVersion": "1.0",
-  "name": "silver",
+  "name": "silver_2",
   "tags": [],
   "resourceType": "GMScript",
 }
