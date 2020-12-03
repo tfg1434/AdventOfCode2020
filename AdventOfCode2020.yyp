@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"silver_3","path":"scripts/silver_3/silver_3.yy",},"order":0,},
+    {"id":{"name":"gold_3","path":"scripts/gold_3/gold_3.yy",},"order":1,},
     {"id":{"name":"silver_2","path":"scripts/silver_2/silver_2.yy",},"order":0,},
     {"id":{"name":"gold_1","path":"scripts/gold_1/gold_1.yy",},"order":1,},
     {"id":{"name":"gold_2","path":"scripts/gold_2/gold_2.yy",},"order":1,},
@@ -26,6 +28,7 @@
   "Folders": [
     {"folderPath":"folders/day_1.yy","order":3,"resourceVersion":"1.0","name":"day_1","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/day_2.yy","order":4,"resourceVersion":"1.0","name":"day_2","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/day_3.yy","order":5,"resourceVersion":"1.0","name":"day_3","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

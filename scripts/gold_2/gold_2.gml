@@ -1003,24 +1003,21 @@ passwords = [
 ]
 #endregion
 
-pass_count = 0
+//pass_count = 0
 
-for (var _i = 0; _i < array_length(passwords) - 1; _i++){	
-	var _pos_1 = real(passwords[_i][0])
-	var _pos_2 = real(passwords[_i][1])
-	var _letter = passwords[_i][2]
-	var _password = passwords[_i][3]
+//for (var _i = 0; _i < array_length(passwords) - 1; _i++){	
+//	var _pos_1 = real(passwords[_i][0])
+//	var _pos_2 = real(passwords[_i][1])
+//	var _letter = passwords[_i][2]
+//	var _password = passwords[_i][3]
 	
-	if (string_char_at(_password, _pos_1) != _letter && string_char_at(_password, _pos_2) != _letter){
-		continue
-	}
-	else if (string_char_at(_password, _pos_1) == _letter && string_char_at(_password, _pos_2) == _letter){
-		continue
-	}
-	else{
-		pass_count++
-	}
-}
+//	if ((string_char_at(_password, _pos_1) != _letter && string_char_at(_password, _pos_2) != _letter) || (string_char_at(_password, _pos_1) == _letter && string_char_at(_password, _pos_2) == _letter)){
+//		continue
+//	}
+//	else{
+//		pass_count++
+//	}
+//}
 
-show_message(pass_count)
+//show_message(pass_count)
 
