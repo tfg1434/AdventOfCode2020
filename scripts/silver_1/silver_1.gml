@@ -203,15 +203,15 @@ expenses = [
 ]
 #endregion
 
-//for (var _i = 0; _i < array_length(expenses) - 1; _i++){
-//	var _current_first_expense = expenses[_i]
+// for (var _i = 0; _i < array_length(expenses) - 1; _i++){
+// 	var _current_first_expense = expenses[_i]
 	
-//	for (var _j = 0; _j < array_length(expenses) - 1; _j++){
-//		if (_current_first_expense + expenses[_j] == 2020){
-//			show_message(string(_current_first_expense * expenses[_j]))
-//			exit
-//		}
-//	}
-//}
+// 	for (var _j = 0; _j < array_length(expenses) - 1; _j++){
+// 		if (_current_first_expense + expenses[_j] == 2020){
+// 			show_message(string(_current_first_expense * expenses[_j]))
+// 			exit
+// 		}
+// 	}
+// }
 
 
