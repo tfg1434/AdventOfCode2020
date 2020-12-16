@@ -1,4 +1,3 @@
-// #region rules
 // rules = [
 // 	["dark olive", "muted brown", "mirrored tomato", "bright black"],
 // 	["faded coral", "drab cyan", "light aqua"],
@@ -595,34 +594,19 @@
 // 	["dim cyan", "faded tan", "mirrored gold"],
 // 	["faded cyan", "dotted black", "shiny maroon", "muted chartreuse"]
 // ]
-// #endregion
-// nodes = ds_list_create()
-// valid_cols = 0
 
-// //https://discord.com/channels/262834612932182025/268469372396371971/785499077236228136
-
-// function get_nodes(_col){
-// 	for (var _i = 0; _i < array_length(rules); _i++){
-// 		if (rules[_i][0] == _col && rules[_i][1] != "no other"){
-// 			var _rule = rules[_i]
-// 			break
-// 		}
+// //possible bags you can go into
+// function possible_bags(_index){
+// 	if (rules[_index][0] == "shiny gold") return 0
+	
+// 	for (var _i = 1; _i < array_length(rules[_index]); _i++){
+// 		if (rules[_index][_i] == "shiny gold") return 1
 // 	}
 	
-// 	for (var _i = 1; _i < array_length(_rule) - 1; _i++){
-// 		if (_rule[_i] == "shiny gold"){
-// 			valid_cols++
-// 			break
-// 		}
-// 		//recursion
-// 		else if (){
-				
-// 		}
-// 	}
+// 	var _ans = 0
 	
-// 	for (var _i = 0; _i < ds_list_size(contains); _i++){
-// 		add_bags_contained(contains[| _i])	
-// 	}
+// 	_ans += possible_bags()
+	
+// 	return _ans
 // }
 
-// ds_list_destroy(nodes)
