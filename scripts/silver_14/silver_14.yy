@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "day_13",
-    "path": "folders/day_13.yy",
+    "name": "day_14",
+    "path": "folders/day_14.yy",
   },
   "resourceVersion": "1.0",
-  "name": "gold_13",
+  "name": "silver_14",
   "tags": [],
   "resourceType": "GMScript",
 }
