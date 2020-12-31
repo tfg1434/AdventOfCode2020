@@ -28,10 +28,12 @@
     {"id":{"name":"silver_7_","path":"scripts/silver_7_/silver_7_.yy",},"order":0,},
     {"id":{"name":"silver_8","path":"scripts/silver_8/silver_8.yy",},"order":1,},
     {"id":{"name":"silver_9","path":"scripts/silver_9/silver_9.yy",},"order":1,},
-    {"id":{"name":"utility","path":"scripts/utility/utility.yy",},"order":19,},
+    {"id":{"name":"utility","path":"scripts/utility/utility.yy",},"order":20,},
     {"id":{"name":"gold_15","path":"scripts/gold_15/gold_15.yy",},"order":1,},
     {"id":{"name":"silver_16","path":"scripts/silver_16/silver_16.yy",},"order":0,},
     {"id":{"name":"silver_17_","path":"scripts/silver_17_/silver_17_.yy",},"order":0,},
+    {"id":{"name":"silver_18","path":"scripts/silver_18/silver_18.yy",},"order":0,},
+    {"id":{"name":"gold_18","path":"scripts/gold_18/gold_18.yy",},"order":1,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -68,6 +70,7 @@
     {"folderPath":"folders/day_7.yy","order":15,"resourceVersion":"1.0","name":"day_7","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/day_16.yy","order":16,"resourceVersion":"1.0","name":"day_16","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/day_17.yy","order":17,"resourceVersion":"1.0","name":"day_17","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/day_18.yy","order":18,"resourceVersion":"1.0","name":"day_18","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -82,6 +85,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"day_12_input.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"day_11_sample.csv","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"day_11_input.csv","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"day_18_input.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.536",
