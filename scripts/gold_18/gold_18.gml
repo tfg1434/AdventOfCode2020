@@ -64,6 +64,8 @@ function eval_expr_precedence(_expr){
             _ans = eval_expr(_eval)
             array_push(_temp, _ans)
             
+            show_debug_message(_expr)
+            
             while (array_length(_temp) > 0) array_push(_expr, array_pop(_temp))
         }
     }

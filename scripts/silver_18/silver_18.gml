@@ -3,6 +3,7 @@
 // Evaluate and append answer to end of stack
 // Repeat
 // Smart to use ) so that you can find the one on the inside
+// I should use recursion but I don't because I hate my life
 
 // var _total = 0
 
