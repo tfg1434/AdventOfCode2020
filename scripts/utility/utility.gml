@@ -40,3 +40,13 @@ function array_reverse(_array, _start, _end){
         _end--
     }
 }
+
+function array_count(_array, _what) {
+    var _count = 0;
+    for (var i = 0; i < array_length(_array); i++) {
+        if (_array[i] == _what) {
+            _count++;
+        }
+    }
+    return _count
+}
