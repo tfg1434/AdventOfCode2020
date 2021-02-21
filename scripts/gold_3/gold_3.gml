@@ -326,25 +326,25 @@
 //]
 //#endregion
 
-//var _x = 0
-//var _y = 0
-//var _patterns = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
-//var _trees = 0
-//var _trees_real = 1
+// var _x = 0
+// var _y = 0
+// var _patterns = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
+// var _trees = 0
+// var _trees_real = 1
 
-//for (var _i = 0; _i < array_length(_patterns); _i++){
-//	while (_y < array_length(_mountain)){
-//		if (string_char_at(_mountain[_y], _x + 1) == "#"){
-//			_trees++	
-//		}
-//		_x = (_x + _patterns[_i][0]) % string_length(_mountain[_i])
-//		_y += _patterns[_i][1]
-//	}
-//	_x = 0
-//	_y = 0
-//	_trees_real *= _trees
-//	_trees = 0
-//}
+// for (var _i = 0; _i < array_length(_patterns); _i++){
+// 	while (_y < array_length(_mountain)){
+// 		if (string_char_at(_mountain[_y], _x + 1) == "#"){
+// 			_trees++	
+// 		}
+// 		_x = (_x + _patterns[_i][0]) % string_length(_mountain[_i])
+// 		_y += _patterns[_i][1]
+// 	}
+// 	_x = 0
+// 	_y = 0
+// 	_trees_real *= _trees
+// 	_trees = 0
+// }
 
-//show_message("Trees P2: " + string(_trees_real))
+// show_message("Trees P2: " + string(_trees_real))
 

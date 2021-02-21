@@ -878,36 +878,36 @@ seats = [
 ]
 #endregion
 
-//var _highest_seat_id = 0
+// var _highest_seat_id = 0
 
-//function get_seat_id(_str){
-//	var _row = 0
-//	var _column = 0
-//	var _range_row = 128
-//	var _range_column = 8
+// function get_seat_id(_str){
+// 	var _row = 0
+// 	var _column = 0
+// 	var _range_row = 128
+// 	var _range_column = 8
 	
-//	for (var _i = 0; _i < array_length(seats) - 1; _i++){
-//		var _char = string_char_at(_str, _i + 1)
+// 	for (var _i = 0; _i < array_length(seats) - 1; _i++){
+// 		var _char = string_char_at(_str, _i + 1)
 		
-//		if (_i < 7){
-//			_range_row = _range_row div 2 //F
+// 		if (_i < 7){
+// 			_range_row = _range_row div 2 //F
 			
-//			if (_char == "B") _row += _range_row //B
-//		}
-//		else{
-//			_range_column = _range_column div 2 //L
+// 			if (_char == "B") _row += _range_row //B
+// 		}
+// 		else{
+// 			_range_column = _range_column div 2 //L
 			
-//			if (_char == "R") _column += _range_column //R
-//		}
-//	}
+// 			if (_char == "R") _column += _range_column //R
+// 		}
+// 	}
 	
-//	return _row * 8 + _column
-//}
+// 	return _row * 8 + _column
+// }
 
-//for (var _i = 0; _i < array_length(seats); _i++){
-//	if (get_seat_id(seats[_i]) > _highest_seat_id){
-//		_highest_seat_id = get_seat_id(seats[_i])	
-//	}
-//}
+// for (var _i = 0; _i < array_length(seats); _i++){
+// 	if (get_seat_id(seats[_i]) > _highest_seat_id){
+// 		_highest_seat_id = get_seat_id(seats[_i])	
+// 	}
+// }
 
-//show_message("Highest Seat ID: " + string(_highest_seat_id))
+// show_message("Highest Seat ID: " + string(_highest_seat_id))
